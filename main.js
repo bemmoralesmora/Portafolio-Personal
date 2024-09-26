@@ -1,4 +1,6 @@
 import { navBArVid } from "./componentes/navBar/navBar.js";
+import { proyectos } from "./componentes/proyect/proyect.js";
+
 /* COMPONENTES DE LA PÁGINA */
 let DOM = document.querySelector("#root");
 
@@ -11,5 +13,5 @@ DOM.appendChild(navBAr);
 
 let proyect = document.createElement('section');
 proyect.classList = "proyect";
-proyect.innerHTML = "ola k ace me yamo proyect"
+proyect.appendChild(proyectos());
 DOM.appendChild(proyect);
