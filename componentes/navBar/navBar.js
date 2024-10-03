@@ -1,3 +1,4 @@
+
 let navBArVid = document.createElement(`div`);
 navBArVid.className= "nav-Bar-div";
 
@@ -9,5 +10,6 @@ navBArVid.appendChild(imgLOgo);
 let h2 = document.createElement('h2');
 h2.innerText= "Brian morales";
 navBArVid.appendChild(h2);
+
 
 export{ navBArVid }
