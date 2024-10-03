@@ -1,0 +1,31 @@
+.section-header{
+    padding: 0.3rem;
+}
+
+.div-item {
+    background-color: rgb(26, 255, 83);
+    padding: 3rem;
+
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+
+.div-item .link-githubpage{
+    text-decoration: none;
+}
+
+.div-item .btn-github{
+    width: 100%;
+    max-width: 10rem;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 3px;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+}
