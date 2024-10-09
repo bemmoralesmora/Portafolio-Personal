@@ -1,10 +1,9 @@
 .nav-Bar{
-    height: 100vh;
+    height: 150vh;
     border: 1px solid gray;
 }
 
 .nav-Bar-div{
-    border-right: 1px solid gray;
     padding: 1rem;
 
     display: grid;
@@ -15,4 +14,112 @@
 
 .nav-Bar-div .img-logo{
     width: 4rem;
+}
+
+.section-menu{
+    width: 28rem;
+    height: 45rem;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-menu .div-lista1{
+    width: 28rem;
+    height: 5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+    border: 1px solid gray;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.div-lista1 .logo-lista1{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(230, 255, 2);
+}
+
+.div-lista1 .logo-lista2{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(238, 107, 0);
+}
+
+.div-lista1 .logo-lista3{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(72, 255, 0);
+}
+
+.div-lista1 .logo-lista4{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(9, 255, 152);
+}
+
+.div-lista1 .logo-lista5{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(43, 8, 245);
+}
+
+.div-lista1 .logo-lista6{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(213, 2, 255);
+}
+
+
+.div-lista1 .nombre-lista1{
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.nav-Bar .formulario{
+    width: 28rem;
+    height: 25rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 15rem;
+}
+
+.formulario .cuadro1{
+    width: 25rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.formulario .cuadro2{
+    width: 25rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.formulario .cuadro3{
+    width: 25rem;
+    height: 8rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.formulario .cuadro4{
+    width: 5rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
 }
