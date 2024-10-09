@@ -3,11 +3,11 @@
 }
 
 .div-item {
-    background-color: rgb(26, 255, 83);
     padding: 3rem;
 
     display: grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(6,1fr);
+    border: 1px solid gray;
 }
 
 .div-item .link-githubpage{
